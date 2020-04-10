@@ -1,0 +1,15 @@
+
+.statusbar {
+    height: var(--status-bar-height);
+    width: 100%;
+    background-color: #F8F8F8;
+}
+.topview {
+    height: var(--status-bar-height);
+    width: 100%;
+    position: fixed;
+    background-color: #F8F8F8;
+    top: 0;
+	z-index: 999;
+}
+

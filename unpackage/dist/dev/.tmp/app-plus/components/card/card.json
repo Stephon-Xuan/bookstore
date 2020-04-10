@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "interact": "/components/interact/interact",
+    "grand": "/components/sunui-grand/sunui-grand"
+  },
+  "component": true
+}

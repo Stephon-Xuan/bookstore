@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "picture-tailor": "/components/picture-tailor/pictureTailor",
+    "top-bar": "/components/topBar/topBar",
+    "top-status": "/components/topStatus/topStatus"
+  }
+}

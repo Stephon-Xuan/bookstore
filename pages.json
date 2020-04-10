@@ -1,0 +1,192 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		/* 动态 */
+		{
+			"path": "pages/dynamic/dynamic",
+			"style": {
+				"navigationBarBackgroundColor": "white"
+			}
+		},
+		{
+			"path": "pages/dynamic/bookRead"
+
+		},
+		
+		{
+			"path": "pages/bookdetail/bookdetail"
+		},
+		/* 搜索 */
+		{
+			"path": "pages/search/search"
+		},
+		{
+			"path": "pages/books/donate"
+		},
+		{
+			"path": "pages/books/donateDetail"
+		},
+		{
+			"path": "pages/books/usedbook"
+		},
+		/* 借书 */
+		{
+			"path": "pages/books/books"
+
+		},
+		
+		
+		/* 发布 */
+		{
+			"path": "pages/issue/issue"
+		},
+		{
+			"path": "pages/issue/issuePage"
+		},
+		{
+			"path": "pages/issue/issueDonate"
+		},
+		{
+			"path": "pages/issue/issueUsedbook"
+		},
+		/* 消息 */
+		{
+			"path": "pages/messages/messages"
+		},
+		/* 个人信息 */
+		{
+			"path": "pages/profile/profile"
+		},
+		{
+			"path": "pages/profile/profileInfo",
+			"style": {
+
+			}
+		},
+		{
+			"path": "pages/profile/profileSetting",
+			"style": {
+
+			}
+		},
+		{
+			"path": "pages/profile/profileBook",
+			"style": {
+			
+			}
+		},
+		{
+			"path": "pages/profile/profileDonate",
+			"style": {
+			
+			}
+		},
+		{
+			"path": "pages/profile/profileDynamic",
+			"style": {
+			
+			}
+		},
+		{
+			"path": "pages/profile/profileFollow",
+			"style": {
+
+			}
+		},
+		{
+			"path": "pages/profile/profileFan",
+			"style": {
+
+			}
+		},
+		{
+			"path": "pages/profile/profileCollection",
+			"style": {
+
+			}
+		},
+		{
+			"path": "pages/profile/avatorSetting"
+		},
+		{
+			"path": "pages/profile/profileOrder/profileOrder"
+		},
+		{
+			"path": "pages/purchase/purchase"
+		},
+		/* 注册登录 */
+		{
+			"path": "pages/login/login",
+			"style": {
+
+			}
+		},
+		{
+			"path": "pages/register/register",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}
+
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#FFF",
+		"backgroundColor": "#FFF",
+		"navigationStyle": "custom"
+	},
+	"tabBar": {
+
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		
+		"list": [{
+				"pagePath": "pages/books/books",
+				"iconPath": "static/images/tabBarIco/books.png",
+				"selectedIconPath": "static/images/tabBarIco/books_sel.png",
+				"text": "首页",
+				"color": "bfbfbf",
+				"selectedColor": "#799EE2"
+			},
+			{
+				"pagePath": "pages/dynamic/dynamic",
+				"iconPath": "static/images/tabBarIco/index.png",
+				"selectedIconPath": "static/images/tabBarIco/index_sel.png",
+				"text": "动态",
+				"color": "bfbfbf",
+				"selectedColor": "#799EE2"
+
+			},
+			{
+				"pagePath": "pages/issue/issue",
+				"iconPath": "static/images/tabBarIco/add.png",
+				"selectedIconPath": "static/images/tabBarIco/add.png",
+				//#ifdef MP-WEIXIN
+				"text": "发布",
+				//#endif
+				"color": "bfbfbf",
+				"selectedColor": "#799EE2"
+			},
+			{
+				"pagePath": "pages/messages/messages",
+				"iconPath": "static/images/tabBarIco/news.png",
+				"selectedIconPath": "static/images/tabBarIco/news_sel.png",
+				"text": "消息",
+				"color": "bfbfbf",
+				"selectedColor": "#799EE2"
+			},
+			{
+				"pagePath": "pages/profile/profile",
+				"iconPath": "static/images/tabBarIco/me.png",
+				"selectedIconPath": "static/images/tabBarIco/me_sel.png",
+				"text": "我的",
+				"color": "bfbfbf",
+				"selectedColor": "#799EE2"
+
+			}
+
+		]
+	}
+}

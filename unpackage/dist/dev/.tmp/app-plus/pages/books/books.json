@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "top-status": "/components/topStatus/topStatus",
+    "carousel": "/components/carousel/carousel",
+    "book-list": "/components/bookList/bookList",
+    "search-bar": "/components/searchBar/searchBar",
+    "issue": "/components/issue/issue"
+  }
+}

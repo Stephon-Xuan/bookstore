@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "top-bar": "/components/topBar/topBar",
+    "info-list": "/components/infoList/infoList",
+    "top-status": "/components/topStatus/topStatus"
+  }
+}

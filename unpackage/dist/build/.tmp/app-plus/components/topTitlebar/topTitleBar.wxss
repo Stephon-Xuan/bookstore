@@ -1,0 +1,19 @@
+
+.dynamic-wrapper.data-v-5b443603 {
+	height: 100rpx;
+	width: 100%;
+	position: relative;
+	margin-bottom: 20rpx;
+}
+.dynamic-title.data-v-5b443603 {
+	position: fixed;
+	height: 100rpx;
+	width: 100%;
+	z-index: 9;
+	background-color: #ffffff;
+}
+.img-size.data-v-5b443603 {
+	width: 50rpx;
+	height: 50rpx;
+}
+

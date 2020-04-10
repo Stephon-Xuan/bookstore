@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "white",
+  "usingComponents": {
+    "top-status": "/components/topStatus/topStatus",
+    "book-card": "/components/bookCard/bookCard",
+    "top-title-bar": "/components/topTitlebar/topTitleBar"
+  }
+}

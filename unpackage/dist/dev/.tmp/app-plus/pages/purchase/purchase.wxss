@@ -1,0 +1,161 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+page.data-v-99025cda {
+  background-color: #ffffff;
+  position: absolute;
+  z-index: 1;
+}
+.userbar.data-v-99025cda {
+  margin-top: 500rpx;
+  padding: 0 40rpx;
+}
+.userbar .userbar-wrapper.data-v-99025cda {
+    padding: 20rpx 0;
+    border-bottom: 2rpx solid #f1ebeb;
+}
+.userbar .userbar-wrapper .userbar-wrapper-avatorsbar.data-v-99025cda {
+      width: 140rpx;
+      height: 60rpx;
+      overflow: hidden;
+      padding-left: 30rpx;
+}
+.userbar .userbar-wrapper .userbar-wrapper-avatorsbar .userbar-wrapper-avatorsbar-imgbox.data-v-99025cda {
+        margin-left: -20rpx;
+}
+.userbar .userbar-wrapper .userbar-wrapper-avatorsbar .userbar-wrapper-avatorsbar-imgbox .userbar-wrapper-avatorsbar-imgbox-img.data-v-99025cda {
+          height: 60rpx;
+          width: 60rpx;
+          border-radius: 50%;
+}
+.userbar .userbar-wrapper .userbar-wrapper-total.data-v-99025cda {
+      margin-left: -160rpx;
+      font-family: MicrosoftYaHei;
+      font-size: 25rpx;
+      font-weight: normal;
+      font-stretch: normal;
+      line-height: 39rpx;
+      letter-spacing: 2rpx;
+      color: #5a5a5a;
+}
+.userbar .userbar-wrapper .userbar-wrapper-imgbox .userbar-wrapper-imgbox-img.data-v-99025cda {
+      width: 14rpx;
+      height: 33rpx;
+}
+.describebar.data-v-99025cda {
+  padding: 0 40rpx;
+}
+.describebar .title.data-v-99025cda {
+    font-family: MicrosoftYaHei;
+    font-size: 40rpx;
+    font-weight: bold;
+    font-stretch: normal;
+    line-height: 22rpx;
+    letter-spacing: 3rpx;
+    color: #313131;
+    padding: 40rpx 0rpx 40rpx 20rpx;
+}
+.describebar .price.data-v-99025cda {
+    font-family: MicrosoftYaHei;
+    font-size: 40rpx;
+    font-stretch: normal;
+    font-weight: bold;
+    line-height: 22rpx;
+    letter-spacing: 3rpx;
+    color: #313131;
+    padding: 0rpx 0 40rpx 0;
+}
+.describebar .price .price-font.data-v-99025cda {
+      font-weight: normal;
+      font-size: 14rpx;
+}
+.describebar .price .price-discount.data-v-99025cda {
+      margin-left: 10rpx;
+      height: 40rpx;
+      width: 160rpx;
+      font-size: 28rpx;
+      color: #fbcbcd;
+      text-align: center;
+      line-height: 40rpx;
+      border: 2rpx solid #fbcbcd;
+}
+.describebar .detail .detail-bar .detail-bar-key.data-v-99025cda {
+    color: #c0bfbf;
+    font-size: 28rpx;
+}
+.describebar .detail .detail-bar .detail-bar-key.spacing.data-v-99025cda {
+      letter-spacing: 14rpx;
+}
+.describebar .detail .detail-bar .detail-bar-value.data-v-99025cda {
+    font-size: 28rpx;
+}
+.describebar .detail .detail-bar .detail-bar-value.active.data-v-99025cda {
+      color: #6ad6c5;
+}
+.buybar.data-v-99025cda {
+  padding: 0 40rpx;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 140rpx;
+  border-top: 2rpx solid #f1ebeb;
+}
+.buybar .buybar-evaluate.data-v-99025cda {
+    padding: 20rpx 0;
+}
+.buybar .buybar-evaluate .buybar-evaluate-star.data-v-99025cda {
+      padding: 0 4rpx;
+}
+.buybar .buybar-evaluate .buybar-evaluate-star .buybar-evaluate-star-img.data-v-99025cda {
+        width: 24rpx;
+        height: 24rpx;
+}
+.buybar .buybar-evaluate .buybar-evaluate-arrow .buybar-evaluate-arrow-img.data-v-99025cda {
+      width: 14rpx;
+      height: 33rpx;
+      margin-left: 16rpx;
+}
+.buybar .buybar-shop .buybar-shop-imgbox.data-v-99025cda {
+    margin-right: 20rpx;
+}
+.buybar .buybar-shop .buybar-shop-imgbox .buybar-shop-imgbox-img.data-v-99025cda {
+      height: 40rpx;
+      width: 40rpx;
+}
+.buybar .buybar-shop .buybar-shop-bnbox .buybar-shop-bnbox-bn.data-v-99025cda {
+    padding: 0 40rpx;
+    height: 60rpx;
+    font-size: 24rpx;
+    line-height: 60rpx;
+    background-color: #F18180;
+    color: #fff;
+    border-radius: 5rpx;
+}
+.buybar .buybar-shop .buybar-shop-bnbox .buybar-shop-bnbox-bn.data-v-99025cda:hover {
+      background-color: #ff5458;
+}
+

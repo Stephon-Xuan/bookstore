@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 1425992 */
+  src: url('//at.alicdn.com/t/font_1425992_7794ip81g56.eot');
+  src: url('//at.alicdn.com/t/font_1425992_7794ip81g56.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1425992_7794ip81g56.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1425992_7794ip81g56.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1425992_7794ip81g56.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1425992_7794ip81g56.svg#iconfont') format('svg');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.iconpinglun:before {
+  content: "\E600";
+}
+.iconxingxing:before {
+  content: "\E62B";
+}
+.icondianzanjihuob:before {
+  content: "\E608";
+}
+.iconzhuanfa00:before {
+  content: "\E6E6";
+}
+.img-font {
+	/*设好宽高 */
+	width: 120rpx;
+	height: 70rpx;
+
+	display: -webkit-box;
+
+	display: -webkit-flex;
+
+	display: -ms-flexbox;
+
+	display: flex;
+
+	/*水平方向元素居中，两边留白 */
+	/* justify-content: center; */
+
+	/*垂直方向元素居中，两边留白 */
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+/*子元素就设好宽高就可以了... */
+.content-image {
+	width: 40rpx;
+	height: 40rpx;
+}
+.text-size-14 {
+	height: 28rpx;
+	/* line-height:2upx; */
+}
+.share-margin {
+	margin-right: 10rpx;
+}
+

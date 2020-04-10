@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "top-status": "/components/topStatus/topStatus",
+    "top-bar": "/components/topBar/topBar",
+    "nav-tab": "/components/topTab/topTab",
+    "card": "/components/card/card"
+  }
+}

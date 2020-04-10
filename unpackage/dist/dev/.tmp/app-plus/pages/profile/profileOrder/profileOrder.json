@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "top-status": "/components/topStatus/topStatus",
+    "top-bar": "/components/topBar/topBar",
+    "order-content": "/pages/profile/orderContent/orderContent"
+  }
+}

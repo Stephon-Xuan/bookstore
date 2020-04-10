@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "top-status": "/components/topStatus/topStatus",
+    "top-tab": "/components/topTab/topTab",
+    "profile-wallet": "/pages/profile/profileWallet/profileWallet",
+    "profile-order": "/pages/profile/profileOrder/profileOrder",
+    "profile-trends": "/pages/profile/profileTrends/profileTrends"
+  }
+}

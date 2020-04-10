@@ -1,0 +1,1 @@
+<view><top-bar vue-id="1" title="卖书" showBottom="{{true}}" bind:__l="__l"></top-bar><nav-tab vue-id="2" tabTitle="{{tabArray}}" bind:__l="__l"></nav-tab></view>

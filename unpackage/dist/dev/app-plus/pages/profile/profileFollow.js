@@ -1,0 +1,2 @@
+setCssToHead(["@charset \x22UTF-8\x22;\nbody { background-color: #FFFFFF; }\n",],undefined,{path:"./pages/profile/profileFollow.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/profile/profileFollow.wxml') } }));

@@ -1,0 +1,191 @@
+<template>
+	
+		<view class="content" :class="{ active: active }" >
+			<!-- <image class="logo" :class="{'active':active}" src="/static/images/tabBarIco/issue_sel.png"  mode="aspectFit"></image> -->
+
+			<view class="tabbar-box-wrap">
+				<view class="tabbar-box">
+					<view class="tabbar-box-item" @click="goToPage('/pages/issue/issueUsedbook')">
+						<image class="box-image" src="/static/images/issue/issueBooks.png" mode="aspectFit"></image>
+						<text class="explain">出售书籍</text>
+					</view>
+					<view class="tabbar-box-item" @click="goToPage('/pages/issue/issueDonate')">
+						<image class="box-image" src="/static/images/issue/issueDonate.png" mode="aspectFit"></image>
+						<text class="explain">捐献书籍</text>
+					</view>
+					<view class="tabbar-box-item" @click="goToPage('/pages/issue/issuePage')">
+						<image class="box-image" src="/static/images/issue/issueDynamic.png" mode="aspectFit"></image>
+						<text class="explain">发布动态</text>
+					</view>
+				</view>
+				<view class="cancel-box flex-cc margin-top-lg">
+					<image class="cancel-size" src="/static/images/issue/cancel.png" @click="goBackPage"/>
+				</view>
+			</view>
+			
+		</view>
+	
+</template>
+
+<script>
+
+export default {
+	
+	data() {
+		return {
+			active: false
+		};
+	},
+	onLoad() {},
+	onShow() {
+		
+		setTimeout(() => {
+		uni.hideTabBar()
+		this.active = true;
+		}, 100);
+	},
+	onHide() {
+		this.active = false;
+	},
+	methods: {
+		goToPage(url) {
+			if (!url) return;
+			uni.navigateTo({
+				url
+			});
+		},
+		goBackPage(){
+			var page = uni.getStorageSync("currentBmTab");
+			// console.log(page)
+			if(page==='profile'){
+				this.goBack("/pages/profile/profile")
+				// return "/pages/dynamic/dynamic"
+			}
+			if(page==='message'){
+				this.goBack("/pages/messages/messages")
+				// return "/pages/messages/messages"
+			}
+			if(page==='dynamic'){
+				this.goBack("/pages/dynamic/dynamic")
+				// return "/pages/issue/issue"
+			}
+			if(page==='books'){
+				this.goBack("/pages/books/books")
+				// return "/pages/books/books"
+			}
+		},
+		goBack(url){
+			uni.showTabBar()
+			uni.switchTab({
+			    url
+			});
+		}
+	},
+	// mounted() {
+	// 	this.goBack(this.goBackPage)
+	// }
+};
+</script>
+
+<style>
+.cancel-box{
+	width: 100%;
+}
+.cancel-size{
+	height: 60upx;
+	width: 60upx;
+}
+</style>
+<style lang="scss" scoped>
+.content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	/* #ifdef H5 */
+	height: calc(100vh - var(--window-bottom) - var(--window-top));
+	/* #endif */
+	/* #ifndef H5 */
+	height: 100vh;
+	/* #endif */
+	transition: opacity 0.3s;
+	background: #FFFFFF;
+	opacity: 0;
+	position: fixed;
+	z-index: 999;
+	bottom: 10;
+	height: 100%;
+	&.active {
+		opacity: 1;
+	}
+	.logo {
+		position: relative;
+		margin-top: -400upx;
+		width: 200upx;
+		height: 200upx;
+		// z-index: -1;
+		opacity: 0;
+		transition: opacity 0.3s;
+		&.active {
+			opacity: 1;
+		}
+	}
+}
+.tabbar-box-wrap {
+	position: absolute;
+	width: 100%;
+	padding: 50upx;
+	box-sizing: border-box;
+	bottom: 60upx;
+	.tabbar-box {
+		position: relative;
+		display: flex;
+		width: 100%;
+		background: #fff;
+		border-radius: 20upx;
+		padding: 15upx 20upx;
+		box-sizing: border-box;
+		z-index: 2;
+		box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.1);
+		&:after {
+			content: '';
+			position: absolute;
+			bottom: -16upx;
+			left: 0;
+			right: 0;
+			margin: auto;
+			width: 50upx;
+			height: 50upx;
+			transform: rotate(45deg);
+			background: #fff;
+			z-index: 1;
+			box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.1);
+			border-radius: 2px;
+		}
+		&:before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background: #ffffff;
+			border-radius: 20upx;
+			z-index: 2;
+		}
+		.tabbar-box-item {
+			// position: relative;
+			width: 100%;
+			z-index: 3;
+			margin: 10upx;
+			color: $uni-color-subtitle;
+			text-align: center;
+			font-size: $uni-font-size-base;
+			.box-image {
+				width: 100%;
+				height: $uni-img-size-lg;
+			}
+		}
+	}
+}
+</style>

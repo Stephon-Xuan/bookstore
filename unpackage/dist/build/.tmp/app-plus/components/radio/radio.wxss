@@ -1,0 +1,17 @@
+
+.main{
+	width: 100%;
+}
+.label {
+	width: 100%;
+	padding: 10rpx;
+}
+.label-radio {
+}
+.label-content {
+}
+.radio-size {
+	/* height: 40upx;
+	width: 40upx; */
+}
+

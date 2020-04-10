@@ -1,0 +1,1 @@
+<view><top-status vue-id="1" bind:__l="__l"></top-status><top-bar vue-id="2" title="关注" showBottom="{{true}}" bind:__l="__l"></top-bar><view><block wx:for="{{4}}" wx:for-item="item" wx:for-index="index" wx:key="index"><ff-list-content vue-id="{{'3-'+index}}" bind:__l="__l"></ff-list-content></block></view></view>

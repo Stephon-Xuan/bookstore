@@ -1,0 +1,90 @@
+{
+  "pages": [
+    "pages/dynamic/dynamic",
+    "pages/dynamic/bookRead",
+    "pages/bookdetail/bookdetail",
+    "pages/search/search",
+    "pages/books/donate",
+    "pages/books/donateDetail",
+    "pages/books/usedbook",
+    "pages/books/books",
+    "pages/issue/issue",
+    "pages/issue/issuePage",
+    "pages/issue/issueDonate",
+    "pages/issue/issueUsedbook",
+    "pages/messages/messages",
+    "pages/profile/profile",
+    "pages/profile/profileInfo",
+    "pages/profile/profileSetting",
+    "pages/profile/profileIssue",
+    "pages/profile/profileFollow",
+    "pages/profile/profileFan",
+    "pages/profile/profileCollection",
+    "pages/profile/avatorSetting",
+    "pages/profile/profileOrder/profileOrder",
+    "pages/purchase/purchase",
+    "pages/login/login",
+    "pages/register/register"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#FFF",
+    "backgroundColor": "#FFF",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/books/books",
+        "iconPath": "static/images/tabBarIco/books.png",
+        "selectedIconPath": "static/images/tabBarIco/books_sel.png",
+        "text": "首页",
+        "color": "bfbfbf",
+        "selectedColor": "#799EE2"
+      },
+      {
+        "pagePath": "pages/dynamic/dynamic",
+        "iconPath": "static/images/tabBarIco/index.png",
+        "selectedIconPath": "static/images/tabBarIco/index_sel.png",
+        "text": "动态",
+        "color": "bfbfbf",
+        "selectedColor": "#799EE2"
+      },
+      {
+        "pagePath": "pages/issue/issue",
+        "iconPath": "static/images/tabBarIco/issue_sel.png",
+        "selectedIconPath": "static/images/tabBarIco/issue_sel.png",
+        "color": "bfbfbf",
+        "selectedColor": "#799EE2"
+      },
+      {
+        "pagePath": "pages/messages/messages",
+        "iconPath": "static/images/tabBarIco/news.png",
+        "selectedIconPath": "static/images/tabBarIco/news_sel.png",
+        "text": "消息",
+        "color": "bfbfbf",
+        "selectedColor": "#799EE2"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "iconPath": "static/images/tabBarIco/me.png",
+        "selectedIconPath": "static/images/tabBarIco/me_sel.png",
+        "text": "我的",
+        "color": "bfbfbf",
+        "selectedColor": "#799EE2"
+      }
+    ]
+  },
+  "nvueCompiler": "weex",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "Shuzhan",
+  "compilerVersion": "2.3.3",
+  "usingComponents": {}
+}

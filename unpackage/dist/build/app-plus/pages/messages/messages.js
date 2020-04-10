@@ -1,0 +1,2 @@
+setCssToHead(["wx-page.",[1],"data-v-0fa9258e{ background-color: #FFFFFF; }\n.",[1],"text-active.",[1],"data-v-0fa9258e{ color:#007aff }\n",],undefined,{path:"./pages/messages/messages.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/messages/messages.wxml') } }));

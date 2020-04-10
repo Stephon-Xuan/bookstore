@@ -1,0 +1,1 @@
+<view class="data-v-fd2aae8e"><view class="dynamic-wrapper data-v-fd2aae8e"><view class="dynamic-title flex-cc padding bg-white text-lg data-v-fd2aae8e"><image class="img-size magin-lr-4 data-v-fd2aae8e" src="{{icoUrl}}"></image>{{''+title+''}}</view></view><view class="{{['data-v-fd2aae8e',isBm?'border-bm-big':'']}}"></view></view>

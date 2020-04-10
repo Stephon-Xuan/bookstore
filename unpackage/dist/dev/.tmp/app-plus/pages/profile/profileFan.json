@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "top-status": "/components/topStatus/topStatus",
+    "top-bar": "/components/topBar/topBar",
+    "ff-list-content": "/pages/profile/ffListContent/ffListContent"
+  }
+}
