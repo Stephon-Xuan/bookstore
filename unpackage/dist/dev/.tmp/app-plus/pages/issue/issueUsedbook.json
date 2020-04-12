@@ -1,9 +1,0 @@
-{
-  "usingComponents": {
-    "top-status": "/components/topStatus/topStatus",
-    "top-bar": "/components/topBar/topBar",
-    "img-upload": "/components/robby-image-upload/robby-image-upload",
-    "content-input": "/components/contentInput/contentInput",
-    "issue-botton": "/components/issueBotton/issueBotton"
-  }
-}

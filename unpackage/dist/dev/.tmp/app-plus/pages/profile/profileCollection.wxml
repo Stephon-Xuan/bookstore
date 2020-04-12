@@ -1,1 +1,0 @@
-<view><top-status vue-id="1" bind:__l="__l"></top-status><top-bar vue-id="2" title="收藏" showBottom="{{true}}" bind:__l="__l"></top-bar></view>

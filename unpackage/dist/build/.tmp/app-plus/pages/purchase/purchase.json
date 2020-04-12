@@ -1,7 +1,0 @@
-{
-  "usingComponents": {
-    "bg-img": "/components/bgImg/bgImg",
-    "top-status": "/components/topStatus/topStatus",
-    "top-bar": "/components/topBar/topBar"
-  }
-}

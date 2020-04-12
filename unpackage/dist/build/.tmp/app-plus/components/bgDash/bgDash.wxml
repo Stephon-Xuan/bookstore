@@ -1,1 +1,0 @@
-<view data-event-opts="{{[['tap',[['showDash',['$event']]]]]}}" class="{{['data-v-4d9e5722',showDashBg?'bg-dash':'']}}" bindtap="__e"></view>

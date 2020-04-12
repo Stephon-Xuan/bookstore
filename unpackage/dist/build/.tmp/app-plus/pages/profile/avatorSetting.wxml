@@ -1,1 +1,0 @@
-<view><top-status vue-id="1" bind:__l="__l"></top-status><picture-tailor vue-id="2" pictureSrc="http://img4.imgtn.bdimg.com/it/u=1688026885,2773767715&fm=26&gp=0.jpg" bind:__l="__l"></picture-tailor></view>

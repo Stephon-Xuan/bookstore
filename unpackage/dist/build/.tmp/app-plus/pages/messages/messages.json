@@ -1,8 +1,0 @@
-{
-  "usingComponents": {
-    "top-status": "/components/topStatus/topStatus",
-    "book-card": "/components/bookCard/bookCard",
-    "top-title-bar": "/components/topTitlebar/topTitleBar",
-    "mes-list": "/pages/messages/mesList"
-  }
-}

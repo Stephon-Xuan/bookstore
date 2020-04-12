@@ -1,9 +1,0 @@
-{
-  "usingComponents": {
-    "top-status": "/components/topStatus/topStatus",
-    "top-bar": "/components/topBar/topBar",
-    "bg-img": "/components/bgImg/bgImg",
-    "interact": "/components/interact/interact",
-    "grand": "/components/sunui-grand/sunui-grand"
-  }
-}

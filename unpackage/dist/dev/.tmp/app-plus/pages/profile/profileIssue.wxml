@@ -1,1 +1,0 @@
-<view><top-bar vue-id="1" title="发布" showBottom="{{true}}" bind:__l="__l"></top-bar><block wx:for="{{4}}" wx:for-item="item" wx:for-index="index" wx:key="index"><card vue-id="{{'2-'+index}}" bind:__l="__l"></card></block></view>

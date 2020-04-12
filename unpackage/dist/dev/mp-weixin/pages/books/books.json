@@ -1,6 +1,0 @@
-{
-  "usingComponents": {
-    "tab-nav": "/components/tabNav/tabNav",
-    "card": "/components/card/card"
-  }
-}

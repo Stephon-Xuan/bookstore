@@ -1,6 +1,0 @@
-{
-  "usingComponents": {
-    "top-status": "/components/topStatus/topStatus",
-    "search-bar": "/components/searchBar/searchBar"
-  }
-}

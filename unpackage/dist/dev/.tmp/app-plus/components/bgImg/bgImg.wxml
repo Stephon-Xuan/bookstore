@@ -1,1 +1,0 @@
-<view class="bgImg flex"><image class="bgImg-img" src="{{imgSrc}}"></image></view>

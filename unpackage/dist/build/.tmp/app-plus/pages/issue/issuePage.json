@@ -1,8 +1,0 @@
-{
-  "usingComponents": {
-    "top-status": "/components/topStatus/topStatus",
-    "top-bar": "/components/topBar/topBar",
-    "content-input": "/components/contentInput/contentInput",
-    "issue-botton": "/components/issueBotton/issueBotton"
-  }
-}

@@ -1,6 +1,0 @@
-{
-  "titleNView": false,
-  "usingComponents": {
-    "top-status": "/components/topStatus/topStatus"
-  }
-}

@@ -2,6 +2,10 @@
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		/* 动态 */
 		{
+			"path": "pages/books/books"
+		
+		},
+		{
 			"path": "pages/dynamic/dynamic",
 			"style": {
 				"navigationBarBackgroundColor": "white"
@@ -29,10 +33,7 @@
 			"path": "pages/books/usedbook"
 		},
 		/* 借书 */
-		{
-			"path": "pages/books/books"
-
-		},
+		
 		
 		
 		/* 发布 */
