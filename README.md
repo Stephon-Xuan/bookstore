@@ -12,7 +12,7 @@ uni-app
 
 ## 预览地址
 
-https://stephon.cn/bookstore/index.html
+https://Stephon-Xuan.github.io/bookstore/index.html
 
 ## 介绍
 
